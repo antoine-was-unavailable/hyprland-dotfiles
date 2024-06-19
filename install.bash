@@ -74,7 +74,7 @@ select_option "${options[@]}"
 choice=$?
 
 if [ $choice = 0 ]; then
-    sudo pacman -S base-devel pavucontrol bluez bluez-utils blueberry discord dolphin kitty qt6ct wofi waybar otf-font-awesome fcitx
+    sudo pacman -S base-devel pavucontrol bluez bluez-utils blueberry discord dolphin kitty qt6ct wofi waybar otf-font-awesome fcitx git
     
     mkdir builds
     cd builds
