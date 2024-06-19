@@ -84,7 +84,7 @@ if [ $choice = 0 ]; then
 
     cd
 
-    yay ponymix clock-tui coreimage brave-bin hyprshot swww mako youtube-music-bin swww
+    yay -S ponymix clock-tui coreimage brave-bin hyprshot swww mako youtube-music-bin swww
 
     mkdir .icons
     cd .icons
