@@ -102,7 +102,7 @@ fi
 
 if [ $choice = 1 ] || [ $choice = 0 ] ; then
     cp -r hyprland-dotfiles/.config ~
-    sudo cp hyprland-dotfiles/etc/bash.bashrc /etc/
+    sudo cp -f hyprland-dotfiles/etc/bash.bashrc /etc/
 fi
 
 if [ $choice = 2 ]; then
