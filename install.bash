@@ -74,7 +74,7 @@ select_option "${options[@]}"
 choice=$?
 
 if [ $choice = 0 ]; then
-    sudo pacman -S base-devel pavucontrol bluez bluez-utils blueberry discord dolphin kitty qt6ct wofi waybar otf-font-awesome fcitx git cpio cmake
+    sudo pacman -S base-devel pavucontrol bluez bluez-utils blueberry discord dolphin kitty qt6ct wofi waybar otf-font-awesome fcitx git cpio cmake meson
     
     mkdir builds
     cd builds
@@ -84,7 +84,7 @@ if [ $choice = 0 ]; then
 
     cd
 
-    yay ponymix clock-tui coreimage brave-bin hyprshot swww mako youtube-music-bin
+    yay ponymix clock-tui coreimage brave-bin hyprshot swww mako youtube-music-bin swww
 
     mkdir .icons
     cd .icons
