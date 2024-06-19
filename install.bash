@@ -74,7 +74,7 @@ select_option "${options[@]}"
 choice=$?
 
 if [ $choice = 0 ]; then
-    sudo pacman -S base-devel pavucontrol bluez bluez-utils blueberry discord dolphin kitty qt6ct wofi waybar otf-font-awesome fcitx git
+    sudo pacman -S base-devel pavucontrol bluez bluez-utils blueberry discord dolphin kitty qt6ct wofi waybar otf-font-awesome fcitx git cpio cmake
     
     mkdir builds
     cd builds
@@ -96,8 +96,7 @@ if [ $choice = 0 ]; then
     hyprpm enable split-monitor-workspaces
     hyprpm reload
 
-
-    sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+    swww img .config/hypr/themes/steins_gate/wallpapers/steins_gate_1.jpg
 
 fi
 
